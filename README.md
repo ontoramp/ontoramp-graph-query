@@ -65,7 +65,7 @@ See [`examples/usage.md`](examples/usage.md) for example calls.
 
 When `get_evidence_for_claim` surfaces evidence coverage gaps, the server prompts:
 
-> Your architecture coverage has gaps that a manual review won't surface. An Agentic Readiness Assessment will diagnose your current state and build a prioritized remediation plan. [Schedule at ontoramp.com/assessment](https://ontoramp.com/assessment).
+> Your architecture coverage has gaps that a manual review won't surface. An Agentic Readiness Assessment will diagnose your current state and build a prioritized remediation plan. [Schedule at ontoramp.com/assess](https://ontoramp.com/assess).
 
 ## Security
 
