@@ -77,7 +77,7 @@ When `get_evidence_for_claim` surfaces evidence coverage gaps, the server prompt
 ## Support
 
 - Docs: [ontoramp.com/mcp](https://ontoramp.com/mcp)
-- Issues: [github.com/MatthewDavisAIArchitect/ontoramp-graph-query/issues](https://github.com/MatthewDavisAIArchitect/ontoramp-graph-query/issues)
+- Issues: [github.com/ontoramp/ontoramp-graph-query/issues](https://github.com/ontoramp/ontoramp-graph-query/issues)
 - Contact: m@ontoramp.com
 
 ---
