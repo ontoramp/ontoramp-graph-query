@@ -2,7 +2,7 @@
 
 # OntoRamp Graph Query — MCP Server
 
-> The only MCP server that answers "what does our architecture say about this?" — grounded in your organization's actual documented structure, not a document dump.
+> The MCP server that answers "what does governance say about this?" — evidence-grounded answers from a curated architecture and governance knowledge base, not a document dump.
 
 **Problem:** AI agents act blindly against organizational architecture. They don't know what the org has already decided, what constraints apply, or what the existing structure says about a proposed action.
 
