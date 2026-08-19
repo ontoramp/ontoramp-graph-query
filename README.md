@@ -6,7 +6,7 @@
 
 **Problem:** AI agents act blindly against organizational architecture. They don't know what the org has already decided, what constraints apply, or what the existing structure says about a proposed action.
 
-**Solution:** Query your organization's architecture and governance constraints directly from any AI agent or LLM workflow. Returns architecture-grounded answers with evidence chains — not document similarity.
+**Solution:** Query a curated architecture and governance knowledge base directly from any AI agent or LLM workflow. Returns evidence-grounded answers with citation chains — not document similarity. Works from day one, and grows as your organization seeds its own knowledge.
 
 [![MCP Registry](https://img.shields.io/badge/MCP_Registry-com.ontoramp%2Fgraph--query-blue)](https://registry.modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
