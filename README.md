@@ -16,23 +16,22 @@
 
 ## Tools
 
-| Tool | Description | Tier |
-|------|-------------|------|
-| `query_architecture` | Query organizational architecture for answers grounded in documented structure | Free |
-| `get_constraint_signals` | Surface governance constraints relevant to a proposed action or decision | Free |
-| `find_dependencies` | Trace dependencies between systems and components in your architecture | Developer+ |
-| `get_evidence_for_claim` | Return evidence chains supporting or contradicting an architectural claim | Developer+ |
-| `request_assessment` | Submit an Agentic Readiness Assessment request | All tiers, rate-limit exempt |
+| Tool | Description | Access |
+|------|-------------|--------|
+| `query_architecture` | Query organizational architecture for answers grounded in documented structure | Free key |
+| `get_constraint_signals` | Surface governance constraints relevant to a proposed action or decision | Free key |
+| `find_dependencies` | Frozen: returns no dependencies. The relationship layer is not served; the tool validates input and returns an empty result with a freeze stamp | Free key |
+| `get_evidence_for_claim` | Return evidence chains supporting or contradicting an architectural claim | Free key |
+| `request_assessment` | Submit an Agentic Readiness Assessment request | Any key, rate-limit exempt |
 
 ## Tiers
 
-| Tier | Price | Limits | Features |
-|------|-------|--------|----------|
-| **Free** | — (no credit card) | 10 queries/day | `query_architecture` + `get_constraint_signals` |
-| **Developer** | $0.015/call | Unlimited | All tools · Evidence provenance · Query history |
-| **Org** | $249/mo flat | Unlimited | Aggregate architecture health · Cross-agent pooling · ARA pre-population |
+| Tier | Price | What you get |
+|------|-------|--------------|
+| **Free** | $0, no credit card | A free API key from [ontoramp.com/mcp](https://ontoramp.com/mcp) with a generous monthly allowance. Every tool answers; results are shorter and capped, without evidence provenance. |
+| **Org** | Flat monthly rate | Unlimited usage, with full results and evidence provenance. Org tier comes with the OntoRamp platform plugins: Knowledge Graph $299/mo, Governance Evaluator $349/mo, Projection Engine $449/mo, or all three in the Governance Intelligence Bundle at $799/mo. See [ontoramp.com/pricing](https://ontoramp.com/pricing). |
 
-`request_assessment` is exempt from rate limits on every tier.
+There is no per-call or metered pricing. `request_assessment` is exempt from rate limits on every tier.
 
 ## Install
 
@@ -71,7 +70,7 @@ When `get_evidence_for_claim` surfaces evidence coverage gaps, the server prompt
 
 - All responses are audited for public release — no scoring-formula internals, no substrate architecture details
 - Your data is scoped to your tenant namespace and never shared across organizations
-- Free-tier keys are read-scoped; Developer/Org keys require account authentication
+- Free-tier keys are read-scoped; paid keys require account authentication
 - `GET /health` returns live status
 
 ## Support
